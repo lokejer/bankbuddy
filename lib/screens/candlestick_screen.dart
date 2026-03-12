@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-const String baseUrl = 'https://estatement-analysis-production.up.railway.app';
+import '../config.dart';
 
 // --- Chart scale helper ---
 class ChartScale {

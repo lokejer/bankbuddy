@@ -4,8 +4,10 @@ import 'package:http/http.dart' as http;
 
 import 'screens/dashboard_screen.dart';
 
-const String baseUrl = 'https://estatement-analysis-production.up.railway.app';
-const String sessionId = 'test';
+// Values injected at build time via --dart-define
+// Fallbacks are empty strings so the app fails loudly if not provided
+const String baseUrl = String.fromEnvironment('BASE_URL');
+const String sessionId = String.fromEnvironment('SESSION_ID');
 
 void main() => runApp(const MyApp());
 
