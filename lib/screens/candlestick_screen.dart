@@ -3,6 +3,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 import '../config.dart';
+import '../config.dart';
 
 // --- Chart scale helper ---
 class ChartScale {
