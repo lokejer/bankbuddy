@@ -9,7 +9,9 @@ The Spending Heatmap shows which days you spent the most.
 <img width="1611" height="981" alt="BankBuddy pages" src="https://github.com/user-attachments/assets/45128e9c-a422-4555-8438-89def2da833e" />
 
 ### In-depth: Candlestick Page
-<img width="1723" height="1059" alt="Candlestick page Demo static" src="https://github.com/user-attachments/assets/5edeeaf8-f4e7-4e63-a408-6de03a936bf3" />
+<video width="1611" controls>
+  <source src="assets/demo.mp4" type="video/mp4">
+</video>
 
 ## Why?
 I often spend without keeping track and have no easy way to reflect on my spending. 
